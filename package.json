@@ -1,0 +1,23 @@
+{
+  "name": "5streamservices",
+  "version": "1.0.0",
+  "description": "https://github.com/robindersingh1986/5streamservices",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robindersingh1986/5streamservices.git"
+  },
+  "author": "robinder singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/robindersingh1986/5streamservices/issues"
+  },
+  "homepage": "https://github.com/robindersingh1986/5streamservices#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
