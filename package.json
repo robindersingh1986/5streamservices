@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/robindersingh1986/5streamservices#readme",
   "dependencies": {
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "express-favicon": "^2.0.1"
   }
 }
