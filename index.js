@@ -5,7 +5,7 @@ const app = express()
 const port = 3000
 
 // app.use(favicon(__dirname + '/public/assets/images/logo_30_30.png'));
-app.use(express.static('public'))
+//app.use(express.static('public'))
 app.get('/favicon.ico', (req, res) => res.status(204).json({nope: true}))
 app.get('/', (req, res) => res.send('Hello World!'))
 
