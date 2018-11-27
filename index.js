@@ -15,6 +15,6 @@ function ignoreFavicon(req, res, next) {
 app.use(ignoreFavicon);
 // app.use(favicon(__dirname + '/public/assets/images/logo_30_30.png'));
 app.use(express.static('public'))
-// app.get('/', (req, res) => res.send('Hello World!'))
+app.get('/', (req, res) => res.send('Hello World!'))
 
 app.listen(port, () => console.log(`Example app listening on port ${port}!`))
