@@ -1,0 +1,36 @@
+body {
+    background-color: #ffffff;
+    color: #000000;
+}
+#left-container {
+    width: 50%;
+    margin: 50px 150px 50px 50px;
+    border:1px solid #900;
+}
+#left-container img {
+    height: 200px;
+    width: 250px;
+    display: inline-block;
+}
+#top-bar {
+    height:50px;
+    border:1px solid #900;
+}
+#menu-bar {
+    font-size:30px;
+    text-align: center;
+    height: 40px;
+    background-color: #000;
+    vertical-align: middle;
+}
+#menu-bar span a {
+    color: #ffffff;
+    margin: 0px 30px;;
+    height: auto;
+}
+#menu-bar span a:hover {
+    height:auto;
+    color: #000000;
+    cursor: pointer;
+    background-color: #ffffff;
+}
